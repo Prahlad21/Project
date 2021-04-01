@@ -6,8 +6,14 @@ function NavBar() {
     return(
         <div>
             <nav className="nav-first">
-            <div ><NavLink to="/navbar"> </NavLink></div>
-            <div className="logo"><NavLink to="/navbar"> LIBRERY MANAGEMENT SYSTEM </NavLink></div>
+            <div>
+            <div>
+                    <img style={{width:"120px", height:"120px",borderRadius:"100px"}}
+                    src="https://image.shutterstock.com/image-vector/template-logo-library-bookstore-four-260nw-299085131.jpg"
+                    />
+                </div>
+            </div>
+            <div className="logo"  ><NavLink style={{color: "cyan"}} to="/navbar"> LIBRERY MANAGEMENT SYSTEM </NavLink></div>
             <ul>
             <li>
                         <input type="text" placeholder="Search Books"/>                
@@ -21,22 +27,22 @@ function NavBar() {
                 <ul className="nav-links">
                    
                     <li>
-                        <NavLink exact activeClassName="active_class" to="/mybooks"> My Books </NavLink>
+                        <NavLink exact activeClassName="active_class" style={{color: "white" }} to="/mybooks"> My Books</NavLink>
                     </li>
                     <li>
-                        <NavLink exact activeClassName="active_class" to="/book"> Book </NavLink>
+                        <NavLink exact activeClassName="active_class" style={{color: "white"}} to="/book"> Book </NavLink>
                     </li>
                     <li>
-                        <NavLink exact activeClassName="active_class" to="/lendbook"> Lend Book </NavLink>
+                        <NavLink exact activeClassName="active_class"  style={{color: "white"}}to="/lendbook"> Lend Book </NavLink>
                     </li>
                     <li>
-                        <NavLink exact activeClassName="active_class" to="/wallet"> Wallet </NavLink>
+                        <NavLink exact activeClassName="active_class" style={{color: "white"}} to="/wallet"> Wallet </NavLink>
                     </li>
                     <li>
-                        <NavLink exact activeClassName="active_class" to="/"> Profile </NavLink>
+                        <NavLink exact activeClassName="active_class" style={{color: "white"}} to="/"> Profile </NavLink>
                     </li>
                     <li>
-                        <NavLink exact activeClassName="active_class" to="/editprofile"> Edit Profile </NavLink>
+                        <NavLink exact activeClassName="active_class" style={{color: "white"}} to="/editprofile"> Edit Profile </NavLink>
                     </li>
                     <li>
                          <NavLink exact activeClassName="active_class" to="/login"> <Button variant="contained" color="primary">Login</Button> </NavLink>

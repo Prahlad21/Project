@@ -8,9 +8,7 @@
   position:absolute;
   min-width: 100%;
   min-height: 100%;
-  background-size:cover;
-  
-  
+  background-size:cover; 
   
 }
 li{
@@ -25,35 +23,37 @@ a{
   display: flex;
   justify-content: space-around;
   min-height: 30vh;
-  align-items:;
+  align-items:center;
   font-family:initial;
-  background-color:cyan;
+  background-color:rgb(27, 18, 18);
 }
 nav{
   display:flex;
   justify-content: space-around;
   min-height: 10vh;
   align-items: center;
-  font-family: inter;
-  background-color:rgb(206, 127, 230);
+  font-family: inherit;
+  background-color:rgb(34, 37, 37);
 }
 nav .logo{
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
   text-transform:uppercase;
- text-align-last: left;
+ 
  
 }
 nav .nav-links{
   display: flex;
   justify-content: space-around;
   width: 80%;
+ 
+  
   
  
 }
 nav .nav-links a{
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 15px;
+  font-weight: 50;
   cursor: pointer;
 }
 nav .nav-links a:hover {
@@ -65,7 +65,7 @@ nav .burger i {
 }
 
 li .active_class {
-  color: blue;
-  border-bottom: 1px solid red;
+  color: rgb(127, 127, 155);
+  border-bottom: 1px solid white;
 
 }
