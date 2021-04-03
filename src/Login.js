@@ -7,6 +7,8 @@ import PersonAddIcon from '@material-ui/icons/PersonAdd';
 function Login() {
     return(
         <div className="bg">
+            
+            <div style={{backgroundColor:"cyan", margin:"20px -80px", borderRadius:"50px"}}>
             <div className="icon">
                 <div className="icon_class"><PersonAddIcon fontSize="large" /></div>               
                 <div className="text">Log in </div>
@@ -29,6 +31,7 @@ function Login() {
                    <h5>Don't have an Account ? </h5>
                 </Link>
             </p>
+            </div>
             
         </div>
         

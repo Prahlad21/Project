@@ -10,14 +10,15 @@ function NavBar() {
             <div>
                     <img style={{width:"120px", height:"120px",borderRadius:"100px"}}
                     src="https://image.shutterstock.com/image-vector/template-logo-library-bookstore-four-260nw-299085131.jpg"
+                    alt=""
                     />
                 </div>
             </div>
-            <div className="logo"  ><NavLink style={{color: "cyan"}} to="/navbar"> LIBRERY MANAGEMENT SYSTEM </NavLink></div>
+            <div className="logo"  ><NavLink style={{color: "cyan"}} to="/navbar"> LIBRARY MANAGEMENT SYSTEM </NavLink></div>
             <ul>
             <li>
                         <input type="text" placeholder="Search Books"/>                
-                        
+                        <button type="submit">Search</button>
                     </li>
             </ul>
             </nav>

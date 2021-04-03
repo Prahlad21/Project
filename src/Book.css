@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.nav-book{
+    padding: 0;
+    display: flex;
+    background: #3e4b52;
+    color: #fff;    
+    margin: 5px 1 px;
+    font-family:"Roboto,sans-sarif"
+}
+nav .h1{
+    display: inline;
+   margin-left: 1px;
+  font-weight: 10;
+  text-align: center;
+}
+.search-area{
+    align-content: center;
+}
